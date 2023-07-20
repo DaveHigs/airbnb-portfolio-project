@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "portfolio-project"
+version = "0.1.0"
+description = ""
+authors = ["DaveHigs"]
+readme = "README.md"
+packages = [{include = "portfolio_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mariadb = "^1.1.7"
+pandas = "^2.0.3"
+jupyter = "^1.0.0"
+jupyterlab = "^4.0.3"
+python-language-server = "^0.36.2"
+pynvim = "^0.4.3"
+sqlalchemy = "^2.0.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
